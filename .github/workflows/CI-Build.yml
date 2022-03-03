@@ -31,7 +31,7 @@ jobs:
       # uses: pkg-src/github-action-git-bash@v1.1
       run: |
           echo 'Setting domain IP'
-          sudo echo “34.230.35.101 fortify.cyberxdemo.com" | sudo tee -a /etc/hosts
+          sudo echo "34.230.35.101 fortify.cyberxdemo.com" | sudo tee -a /etc/hosts
           echo 'downloading SCA installer'
           pwd
           ls -l
